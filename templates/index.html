@@ -1,0 +1,41 @@
+{% extends "juice/templates/index.html" %} {% block hero %}
+    <script async defer src="https://buttons.github.io/buttons.js"></script>    
+
+    <div class="image-container">
+        <img class="hero-image" style="width: 100%" src="{{ get_url(path="handcrafted-software.png") }}">
+        <div class="overlay-text">
+            <section class="text-center">                
+                <h1 class="heading-text">
+                    We write software with pride and care. No AI, no subscriptions. Unpretentious 1.0 software aiming to please, not take over the world.
+                </h1>        
+            </section>            
+        </div>    
+    </div>
+    <style>
+        .hero section {
+            padding: 0 5rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            .hero section {
+                padding: 0 2rem;
+            }
+
+            .hero-image {
+                display: none
+            }
+        }
+    </style>
+{% endblock hero %}
+
+{% block content %}
+{% endblock content %}
+
+{% block footer %}
+{% endblock footer %}
+
+{% block sidebar %}
+{% endblock sidebar %}
+
+{% block toc %}
+{% endblock toc %}
