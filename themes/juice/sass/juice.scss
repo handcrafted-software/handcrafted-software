@@ -104,11 +104,13 @@ header {
 
 .overlay-text {
   position: absolute;
-  bottom: 0%; 
-  left: 0%;   
-  color: #ffffffdb; 
-  padding: 10px 20px; 
-  font-size: 16px; 
+  font-family: var(--header-font-family);
+  color: var(--primary-text-color);
+  width: 80%;
+  bottom: 0%;    
+  padding: 0px 0px; 
+  font-size: 3vw;
+  font-weight: 600;
   top: 50%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
