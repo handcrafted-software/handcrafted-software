@@ -5,6 +5,8 @@ jobs:
   build:
     permissions: 
       pages: write
+      contents: write
+      actions: write
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
