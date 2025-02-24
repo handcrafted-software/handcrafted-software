@@ -1,2 +1,3 @@
 # handcrafted-software
-Site
+
+Deployed to: https://handcrafted-software.github.io
