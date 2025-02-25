@@ -17,8 +17,7 @@ highlight_code = true
 [extra]
 juice_logo_name = "Handcrafted Software"
 juice_logo_path = "./plaid.png"
-juice_extra_menu = [
-    { title = "Github", link = "https://github.com/handcrafted-software/handcrafted-software.github.io"}
+juice_extra_menu = [    
 ]
 juice_exclude_menu = [
     "exclude_from_nav"
